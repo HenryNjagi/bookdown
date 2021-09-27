@@ -1,8 +1,12 @@
 # Introduction {#intro}
 
-You can label chapter and section titles using `{#label}` after them, e.g., we can reference Chapter \@ref(intro). If you do not manually label them, there will be automatic labels anyway, e.g., Chapter \@ref(methods).
+## Over View
 
-Figures and tables with captions will be placed in `figure` and `table` environments, respectively.
+i. Time Series Analysis and Time Series Modeling are powerful forecasting tools
+
+ii. A prior knowledge of the statistical theory behind Time Series is useful before Time series Modeling
+
+iii. ARMA and ARIMA are important models for performing Time Series Analysis
 
 ```{r nice-fig, fig.cap='Here is a nice figure!', out.width='80%', fig.asp=.75, fig.align='center'}
 par(mar = c(4, 4, .1, .1))
