@@ -1,5 +1,5 @@
 --- 
-title: "Data and Analytics in SPSS"
+title: "Data and Analytics in SPSS: \\ A Step-By-Step Guide to Analysis and Interpretation"
 author: "Henry Njagi"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
