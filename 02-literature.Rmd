@@ -1,3 +1,6 @@
-# Literature
+# Getting Started
 
-Here is a review of existing methods.
+## Starting SPSS
+We want to appreciate different users are using different operatig systems. The procedure to startup the SPSS may differ slightly.
+This part uses screenshots from the window version of SPSS. Other window versions such as Unix and/or MacOS will have the same functionality, but could appear differently than what is being depiced herein.
+
