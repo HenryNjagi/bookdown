@@ -1,8 +1,6 @@
-fig:nice-fig
-tab:nice-tab
 prerequisites
 intro
-overview
+preliminary
 literature
 methods
 math-example
@@ -10,4 +8,4 @@ applications
 example-one
 example-two
 final-words
-preliminary
+copyright
