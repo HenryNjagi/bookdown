@@ -146,4 +146,4 @@ New variables can also be added. For example, if the first three participants we
 Adding data and variables are logical extensions of the procedures we used to originally create the data file. Save this new data file. We will be using it again later in this book.
 
 $\textdb{Practice Exercise}$
-Follow the previous example (where TRAINING is the new variable). Make the modifications to your SAMPLE.sav data file and save it.
+Follow the previous example (where TRAINING is the new variable). Make the modifications to your SAMPLE.sav data file and save it. Good!
