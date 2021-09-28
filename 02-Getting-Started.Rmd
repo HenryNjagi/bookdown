@@ -6,7 +6,7 @@ This part uses screenshots from the window version of SPSS. Other window version
 
 ![SPSS Version 25.](getstarted.png)
 
-When you start the SPSS, you will be presented with the above dialog box. This depends with the system administrator options that is working with your version program. On the $\textbf{dialog box}$, click Type in data and OK. Or just ($\textit{Close}$). This will present a blank data window.
+When you start the SPSS, you will be presented with the above dialog box. This depends with the system administrator options that is working with your version program. On the dialog box, click Type in data and OK. Or just (Close). This will present a blank data window.
 
 The provided blank window have basic interface for SPSS. 
 
@@ -15,7 +15,7 @@ The provided blank window have basic interface for SPSS.
 
 Before you get to know the operability of SPSS, you must understnd the key to success with SPSS. You should understand how SPSS stores data and uses the data. In order to illustrate the hasics data entry with SPSS, we will use an example 2.1.1 
 
-$\textbf{Example 2.1.1}$
+Example 2.1.1
 
 A survey was given to different students from a college who were studying different courses (Enginnering, Economics, Computer Science, and Agriculture). The students were asked whether or not they revise extensively in the morning or late in the evening. This survey also asked for their first semester grade in the class (100% being the highest grade possible for all the courses). The response sheets fro the first 5 students are presented below
 
@@ -30,7 +30,7 @@ Revion Time:
 
 Grade %
 
-Recall the blank SPSS window, there is two button ($\textbf{Data View}$ and $\textbf{Variable View}$) on the bottom-left of the window. In the data view, we have columns and rows, the columns represents variables, and rows represent participants. Since the variables we have defined from example 2.1.1 have only four variables, therefore, we will create a data file with four columns, and five rows, each representing an entry from individual respondent/student.
+Recall the blank SPSS window, there is two button (Data View and Variable View) on the bottom-left of the window. In the data view, we have columns and rows, the columns represents variables, and rows represent participants. Since the variables we have defined from example 2.1.1 have only four variables, therefore, we will create a data file with four columns, and five rows, each representing an entry from individual respondent/student.
 
 ## Defining Variables
 
@@ -41,7 +41,7 @@ Before we can enter any data, we must first enter some basic information about e
 
 Thus, the variable name “Q7” is acceptable, while the variable name “7Q” is not. Similarly, the variable name “PRE_TEST” is acceptable, but the variable name “PRE TEST” is not. Capitalization does not matter, but variable names are capitalized in this text to make it clear when we are referring to a variable name, even if the variable name is not necessarily capitalized in screenshots.
 
-To define a variable, click on the Variable View tab at the bottom of the main screen $\textbf{refer to the SPSS Blank Window}$. This will show you the Variable View window. To return to the Data View window, click on the Data View tab.
+To define a variable, click on the Variable View tab at the bottom of the main screen (refer to the SPSS Blank Window). This will show you the Variable View window. To return to the Data View window, click on the Data View tab.
 
 From the Variable View screen, SPSS allows you to create and edit all of the variables in your data file. Each column represents some property of a variable, and each row represents a variable. All variables must be given a name. To do that, click on the first empty cell in the Name column and type a valid SPSS variable name. The program will then fill in default values for most of the other properties.
 
@@ -53,7 +53,7 @@ Value labels allow you to associate a description with each value of a variable.
 To assign value labels, click in the cell you want to assign values to in the Values column (in this case, for Variable 2 i.e., the course). This will bring up a small gray button (shown below). Click on that button to bring up the Value Labels dialog box. The revision time should also be coded as 1 = Morning, and 2 = Evening.
 
 ![Value label.](valuelabel.png)
-When you enter a value label, you must click $\textit{Add}$ after each entry. This will move the value and its associated label into the bottom section of the window. When all labels have been added, click $\textit{OK}$ to return to the Variable View window.
+When you enter a value label, you must click Add after each entry. This will move the value and its associated label into the bottom section of the window. When all labels have been added, click OK to return to the Variable View window.
 
 In addition to naming and labeling the variable, you have the option of defining the variable type. To do so, simply click on the Type, Width, or Decimals columns in the Variable View window. The default value is a numeric field that is eight digits wide with two decimal places displayed. If your data are more than eight digits to the left of the decimal place, they will be displayed in scientific notation (e.g., the number 2,000,000,000 will be displayed as 2.00E+09). SPSS maintains accuracy beyond two decimal places, but all output will be rounded to two decimal places unless otherwise indicated in the Decimals column.
 
@@ -62,7 +62,7 @@ There are several other options available in this screen, which are beyond the s
 After you have coded the book, click on the Data View tab to open the data-entry screen. Enter data horizontally, beginning with the first student’s ID number. Enter the code for each variable in the appropriate column. To enter the GRADE variable value, enter the student’s class/semester grade.
 
 ![Data View label.](dataview.png)
-The previous data window can be changed to look like the screenshot on the next page by clicking on the Value Labels icon ($\textbf{see below}$). In this case, the cells display value labels rather than the corresponding codes. If data are entered in this mode, it is not necessary to enter codes, as clicking the button that appears in each cell as the cell is selected will present a drop-down list of the predefined labels. You may use whichever method you prefer.
+The previous data window can be changed to look like the screenshot on the next page by clicking on the Value Labels icon (see below). In this case, the cells display value labels rather than the corresponding codes. If data are entered in this mode, it is not necessary to enter codes, as clicking the button that appears in each cell as the cell is selected will present a drop-down list of the predefined labels. You may use whichever method you prefer.
 
 ![Data View label1.](valuelabels.png)
 
@@ -127,7 +127,7 @@ One way to ensure that your output window contains only the results of the curre
 
 You can also save your output files as SPSS format files (.spv extension). Note that SPSS saves whatever window you have open. If you are on a data window you will save your data. If you are on an output window it will save your output.
 
-$\textbf{Practice Exercise}$
+Practice Exercise
 
 Load the sample data file you created earlier (SAMPLE.sav). Run the Descriptives command for the variable GRADE, and print the output. Next, select the data window and print it.
 
@@ -145,5 +145,6 @@ New variables can also be added. For example, if the first three participants we
 
 Adding data and variables are logical extensions of the procedures we used to originally create the data file. Save this new data file. We will be using it again later in this book.
 
-$\textdb{Practice Exercise}$
+Practice Exercise
+
 Follow the previous example (where TRAINING is the new variable). Make the modifications to your SAMPLE.sav data file and save it. Good!
