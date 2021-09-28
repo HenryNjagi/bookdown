@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.9.26)  28 SEP 2021 16:08
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.9.26)  28 SEP 2021 16:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -878,6 +878,10 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 File: Exampe211.png Graphic file (type bmp)
 <Exampe211.png>
 [11]
+Underfull \hbox (badness 1259) in paragraph at lines 212--213
+[]\TU/lmr/m/n/10 Recall the blank SPSS window, there is two button ($[]$ and
+ []
+
 File: variableview.png Graphic file (type bmp)
 <variableview.png>
 
@@ -938,7 +942,7 @@ l.376 \(\textdb
 Here is how much of TeX's memory you used:
  17013 strings out of 478492
  300955 string characters out of 5860186
- 759003 words of memory out of 5000000
+ 760003 words of memory out of 5000000
  37049 multiletter control sequences out of 15000+600000
  409937 words of font info for 87 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
