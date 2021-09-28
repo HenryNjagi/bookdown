@@ -1,5 +1,5 @@
 --- 
-title: "Time Series Analysis in RStudio"
+title: "Data and Analytics in SPSS"
 author: "Henry Njagi"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site

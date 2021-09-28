@@ -1,12 +1,18 @@
 # Introduction {#intro}
 
-## Over View
+## Preliminary
 
-i. Time Series Analysis and Time Series Modeling are powerful forecasting tools
+The use of SPSS accommodates all people including the novice computer user and those with no previous experience using SPSS. The study chapters are divided into sub-sections that explains the statistics to be used, with underlying assumptions, and methodology for the results interpretation and express then in a research report. 
 
-ii. A prior knowledge of the statistical theory behind Time Series is useful before Time series Modeling
+The genesis of the book explains how to start the SPSS, variable definitions, data entry and saving. All the necessary and fundamental statistics techniques are explained. These statistics included the descriptive statistics, data graphing, association and prediction, inferential statistics for parametric and nonparametric, and statistics for test construction.
 
-iii. ARMA and ARIMA are important models for performing Time Series Analysis
+The learners are expected to follow up with the sample screenshots. 
+
+New to this edition 1:
+
+Data and real output are now available for all Phrasing Results sections – eliminating hypothetical output or hypothetical data
+
+Henry Njagi is a lecturer and a Statistician with advanced knowledge in data and Analytics (MSc. in Applied Statistics, Jomo Kenyatta University of Agriculture and Technology).
 
 ```{r nice-fig, fig.cap='Here is a nice figure!', out.width='80%', fig.asp=.75, fig.align='center'}
 par(mar = c(4, 4, .1, .1))
