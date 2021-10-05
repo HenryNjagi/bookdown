@@ -32,7 +32,7 @@
   
   
 <link rel="prev" href="getting-started.html"/>
-<link rel="next" href="entering-and-modifying-data-1.html"/>
+<link rel="next" href="descriptive-statistics.html"/>
 <script src="libs/header-attrs-2.9/header-attrs.js"></script>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
@@ -94,20 +94,26 @@
 <li class="chapter" data-level="4.1" data-path="entering-and-modifying-data.html"><a href="entering-and-modifying-data.html#variables-and-data-representation"><i class="fa fa-check"></i><b>4.1</b> Variables and Data Representation</a>
 <ul>
 <li class="chapter" data-level="4.1.1" data-path="entering-and-modifying-data.html"><a href="entering-and-modifying-data.html#measurement-scales"><i class="fa fa-check"></i><b>4.1.1</b> Measurement Scales</a></li>
+<li class="chapter" data-level="4.1.2" data-path="entering-and-modifying-data.html"><a href="entering-and-modifying-data.html#missing-data"><i class="fa fa-check"></i><b>4.1.2</b> Missing Data</a></li>
 </ul></li>
-</ul></li>
-<li class="chapter" data-level="5" data-path="entering-and-modifying-data-1.html"><a href="entering-and-modifying-data-1.html"><i class="fa fa-check"></i><b>5</b> Entering and Modifying Data</a></li>
-<li class="chapter" data-level="6" data-path="descriptive-statistics.html"><a href="descriptive-statistics.html"><i class="fa fa-check"></i><b>6</b> Descriptive Statistics</a>
+<li class="chapter" data-level="4.2" data-path="entering-and-modifying-data.html"><a href="entering-and-modifying-data.html#selection-and-transformation-of-data"><i class="fa fa-check"></i><b>4.2</b> Selection and Transformation of Data</a>
 <ul>
-<li class="chapter" data-level="6.1" data-path="descriptive-statistics.html"><a href="descriptive-statistics.html#data"><i class="fa fa-check"></i><b>6.1</b> Data</a></li>
+<li class="chapter" data-level="4.2.1" data-path="entering-and-modifying-data.html"><a href="entering-and-modifying-data.html#selecting-a-subset"><i class="fa fa-check"></i><b>4.2.1</b> Selecting a Subset</a></li>
+<li class="chapter" data-level="4.2.2" data-path="entering-and-modifying-data.html"><a href="entering-and-modifying-data.html#computing-a-new-variable"><i class="fa fa-check"></i><b>4.2.2</b> Computing a New Variable</a></li>
+<li class="chapter" data-level="4.2.3" data-path="entering-and-modifying-data.html"><a href="entering-and-modifying-data.html#recoding-a-variabledifferent-variable"><i class="fa fa-check"></i><b>4.2.3</b> Recoding a Variable—Different Variable</a></li>
 </ul></li>
-<li class="chapter" data-level="7" data-path="graphing-data.html"><a href="graphing-data.html"><i class="fa fa-check"></i><b>7</b> Graphing Data</a>
+</ul></li>
+<li class="chapter" data-level="5" data-path="descriptive-statistics.html"><a href="descriptive-statistics.html"><i class="fa fa-check"></i><b>5</b> Descriptive Statistics</a>
 <ul>
-<li class="chapter" data-level="7.1" data-path="graphing-data.html"><a href="graphing-data.html#r-markdown"><i class="fa fa-check"></i><b>7.1</b> R Markdown</a></li>
-<li class="chapter" data-level="7.2" data-path="graphing-data.html"><a href="graphing-data.html#including-plots"><i class="fa fa-check"></i><b>7.2</b> Including Plots</a></li>
+<li class="chapter" data-level="5.1" data-path="descriptive-statistics.html"><a href="descriptive-statistics.html#data"><i class="fa fa-check"></i><b>5.1</b> Data</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="graphing-data.html"><a href="graphing-data.html"><i class="fa fa-check"></i><b>6</b> Graphing Data</a>
+<ul>
+<li class="chapter" data-level="6.1" data-path="graphing-data.html"><a href="graphing-data.html#r-markdown"><i class="fa fa-check"></i><b>6.1</b> R Markdown</a></li>
+<li class="chapter" data-level="6.2" data-path="graphing-data.html"><a href="graphing-data.html#including-plots"><i class="fa fa-check"></i><b>6.2</b> Including Plots</a></li>
 </ul></li>
 <li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
-<li class="chapter" data-level="8" data-path="copyright.html"><a href="copyright.html"><i class="fa fa-check"></i><b>8</b> Copyright</a></li>
+<li class="chapter" data-level="7" data-path="copyright.html"><a href="copyright.html"><i class="fa fa-check"></i><b>7</b> Copyright</a></li>
 <li class="divider"></li>
 <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
 
@@ -137,6 +143,74 @@
 <h3><span class="header-section-number">4.1.1</span> Measurement Scales</h3>
 <p>There are four types of measurement scales: nominal, ordinal, interval, and ratio. While the measurement scale will determine which statistical technique is appropriate for a given set of data, SPSS generally does not discriminate. Thus, we start this section with this warning: If you ask it to, SPSS may conduct an analysis that is not appropriate for your data.</p>
 <p>Newer versions of SPSS allow you to indicate which types of data you have when you define your variable. You do this using the Measure column. You can indicate Scale, Ordinal, or Nominal (SPSS does not distinguish between interval and ratio scales).</p>
+<p><img src="MeasureLevel1.PNG" alt="Measure." />
+Look at the SAMPLE.sav data file we created in Chapter 3. We calculated a mean for the variable GRADE. GRADE was measured on a ratio scale, and the mean is an acceptable summary statistic (assuming that the distribution is normal).</p>
+<p>We could have had SPSS calculate a mean for the variable TIME instead of GRADE. If we did, we would get the output presented on the next page.</p>
+<div class="figure">
+<img src="Descriptive1.PNG" alt="" />
+<p class="caption">Measure.</p>
+</div>
+<p>The output indicates that the average TIME was 1.4. Remember that TIME was coded as an ordinal variable (1 = morning class, 2 = afternoon class). Though the mean is not an appropriate statistic for an ordinal scale, SPSS calculated it anyway. The importance of considering the type of data cannot be overemphasized. Just because SPSS will compute a statistic for you does not mean that you should use it. Later in the text, when specific statistical procedures are discussed, the conditions under which they are appropriate will be addressed. Please note that there are some procedures (e.g., graphs and nonparametric tests) where SPSS limits what you can do based on the measurement scale. However, more often than not, it is up to the user to make that decision.</p>
+</div>
+<div id="missing-data" class="section level3" number="4.1.2">
+<h3><span class="header-section-number">4.1.2</span> Missing Data</h3>
+<p>Often, participants do not provide complete data. For example, for some students, you may have a pretest score but not a posttest score. Perhaps one student left one question blank on a survey, or perhaps she did not state her age. Missing data can weaken any analysis. Often, a single missing answer can eliminate a subject from all analyses.</p>
+<p><img src="MissingData1.PNG" alt="Missing Data" />
+If you have missing data in your dataset, leave that cell blank. In the example shown above, the fourth subject did not complete Question 2 (q2). Note that the total score (which is calculated from both questions) is also blank because of the missing data for Question 2. SPSS represents missing data in the data window with a period (although you should not enter a period—just leave it blank). It is NOT good practice to create a filler value (e.g., “999” or “0”) to represent blank scores, because SPSS will see it as a value with meaning, whereas it will treat truly blank values as missing.</p>
+</div>
+</div>
+<div id="selection-and-transformation-of-data" class="section level2" number="4.2">
+<h2><span class="header-section-number">4.2</span> Selection and Transformation of Data</h2>
+<p>We often have more data in a data file than we want to include in a specific analysis. For instance, our sample data file contains data from four participants, two of whom received special training and two of whom did not. If we wanted to conduct an analysis using only the two participants who did not receive the training, we would need to specify the appropriate subset.</p>
+<div id="selecting-a-subset" class="section level3" number="4.2.1">
+<h3><span class="header-section-number">4.2.1</span> Selecting a Subset</h3>
+<p>We can use the Select Cases command to specify a subset of our data. The Select Cases command is located under the Data menu. When you select this command, the dialog box below will appear. (Note the icons next to the variable names that indicate that all variables were defined as being measured on a nominal scale except grade, which was defined as scale.)</p>
+<p><img src="SelectCases1.PNG" alt="Data Tranformation" />
+<img src="SelectCases2.PNG" /></p>
+<p>You can specify which cases (participants) you want to select by using the selection criteria, which appear on the right side of the Select Cases dialog box. By default, All cases will be selected. The most common way to select a subset is to click If condition is satisfied, then click on the button labeled If. This will bring up a new dialog box that allows you to indicate which cases you would like to use.</p>
+<p><img src="SelectCases3.PNG" /></p>
+<p>You can enter the logic used to select the subset in the upper section. If the logical statement is true for a given case, then that case will be selected. If the logical statement is false that case will not be selected. For instance, you can select all cases that were coded as Morning/Evening by entering the formula RevisionTime = 1 in the upper-left part of the window. If RevisionTime is 1, then the statement will be true, and SPSS will select the case. If RevisionTime is anything other than 1, the statement will be false, and the case will not be selected. Once you have entered the logical statement, click Continue to return to the Select Cases dialog box. Then, click OK to return to the data window.</p>
+<p>After you have selected the cases, the data window will slightly change. The cases that were not selected will be marked with a diagonal line through the case number. For instance, for our sample data, the second and fourth cases are not selected. Only the First and Third and Fifth cases are selected for this subset.</p>
+<p><img src="Exclude1.PNG" />
+An additional variable will also be created in your data file. The new variable is called FILTER_$ and indicates whether a case was selected or not.</p>
+<p>If we calculate a mean GRADE using the subset we just selected, we will receive the output here. Notice that we now have a mean of 1.00 with a sample size (N) of 3 instead of 5.</p>
+<p><img src="Descriptive2.PNG" /></p>
+<p>Be careful when you select subsets. The subset remains in effect until you run the command again and select all cases. You can tell if you have a subset selected because the bottom of the data window will indicate that a filter is on. In addition, when you examine your output, N will be less than the total number of records in your dataset if a subset is selected. The diagonal lines through some cases will also be evident when a subset is selected. Be careful not to save your data file with a subset selected, as this can cause considerable confusion later.</p>
+</div>
+<div id="computing-a-new-variable" class="section level3" number="4.2.2">
+<h3><span class="header-section-number">4.2.2</span> Computing a New Variable</h3>
+<p>SPSS can also be used to compute a new variable or manipulate your existing variables. To illustrate this, we will create a new data file. This file will contain data for four participants and three variables (Q1, Q2, and Q3). The variables represent the number of points each participant received on three different questions. Now enter the data shown on the screen below. When done, save this data file as “QUESTIONS.sav.” We will be using it again in later chapters.</p>
+<p><img src="QuestionData.PNG" alt="Question Data Set" />
+Now you will calculate the total score for each subject. We could do this manually, but if the data file were large, or if there were a lot of questions, this would take a long time. It is more efficient (and more accurate) to have SPSS compute the totals for you. To do this, click Transform, and then click Compute Variable.</p>
+<p><img src="Transform1.PNG" alt="Tranformation" />
+After clicking the Compute Variable command, we get the dialog box shown below.</p>
+<div class="figure">
+<img src="Transform2.PNG" alt="" />
+<p class="caption">Tranformation</p>
+</div>
+<p>The blank field marked Target Variable is where we enter the name of the new variable we want to create. In this example, we are creating a variable called TOTAL, so type the word total.</p>
+<p>Notice that there is an equals sign between the Target Variable blank and the Numeric Expression blank. These two blank areas are the two sides of an equation that SPSS will calculate. For instance, total = Q1 + Q2 + Q3 is the equation that is entered in the sample presented here (screenshot shown above). Note that it is possible to create any equation here simply by using the number and operational keypad at the bottom of the dialog box. When we click OK, SPSS will create a new variable called TOTAL and make it equal to the sum of the three questions.</p>
+<p><img src="Transform3.PNG" alt="Tranformation" />
+Save your data file again so that the new variable will be available for future sessions.</p>
+</div>
+<div id="recoding-a-variabledifferent-variable" class="section level3" number="4.2.3">
+<h3><span class="header-section-number">4.2.3</span> Recoding a Variable—Different Variable</h3>
+<p>SPSS can create a new variable based upon data from another variable. Say we want to split our participants on the basis of their total score. We want to create a variable called GROUP, which is coded 1 if the total score is low (less than or equal to 8) or 2 if the total score is high (9 or larger). To do this, we click Transform, then Recode into Different Variables.</p>
+<p><img src="Recode1.PNG" alt="Recoding" />
+<img src="Recode2.PNG" alt="Recoding" /></p>
+<p>This will bring up the Recode into Different Variables dialog box shown above. Transfer the variable TOTAL to the middle blank. Type group in the Name field under Output Variable. Click Change, and the middle blank will show that TOTAL is becoming GROUP, as shown below.</p>
+<p>Click Old and New Values. This will bring up the Recode dialog box below.</p>
+<div class="figure">
+<img src="Recode3.PNG" alt="" />
+<p class="caption">Recoding</p>
+</div>
+<p>In the example shown here, we have entered a 9 in the Range, value through HIGHEST field, and a 2 in the Value field under New Value. When we click Add, the blank on the right displays the recoding formula. We next entered an 8 on the left in the Range, LOWEST through value blank, and a 1 in the Value field under New Value. Click Add, then Continue.</p>
+<p><img src="Recode4.PNG" alt="Recoding" />
+Click OK. You will be redirected to the data window shown below. A new variable (GROUP) will have been added and coded as 1 or 2, based on TOTAL.</p>
+<div class="figure">
+<img src="RecodeData1.PNG" alt="" />
+<p class="caption">Recoded data</p>
+</div>
 
 </div>
 </div>
@@ -147,7 +221,7 @@
         </div>
       </div>
 <a href="getting-started.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="entering-and-modifying-data-1.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="descriptive-statistics.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
