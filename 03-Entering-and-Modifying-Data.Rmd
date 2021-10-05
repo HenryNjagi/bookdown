@@ -34,7 +34,9 @@ We often have more data in a data file than we want to include in a specific ana
 We can use the Select Cases command to specify a subset of our data. The Select Cases command is located under the Data menu. When you select this command, the dialog box below will appear. (Note the icons next to the variable names that indicate that all variables were defined as being measured on a nominal scale except grade, which was defined as scale.)
 
 ![Data Tranformation](SelectCases1.png)
+
 If condition....
+
 
 ![](SelectCases2.png)
 

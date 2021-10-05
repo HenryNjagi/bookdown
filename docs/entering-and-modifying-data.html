@@ -107,11 +107,7 @@
 <ul>
 <li class="chapter" data-level="5.1" data-path="descriptive-statistics.html"><a href="descriptive-statistics.html#data"><i class="fa fa-check"></i><b>5.1</b> Data</a></li>
 </ul></li>
-<li class="chapter" data-level="6" data-path="graphing-data.html"><a href="graphing-data.html"><i class="fa fa-check"></i><b>6</b> Graphing Data</a>
-<ul>
-<li class="chapter" data-level="6.1" data-path="graphing-data.html"><a href="graphing-data.html#r-markdown"><i class="fa fa-check"></i><b>6.1</b> R Markdown</a></li>
-<li class="chapter" data-level="6.2" data-path="graphing-data.html"><a href="graphing-data.html#including-plots"><i class="fa fa-check"></i><b>6.2</b> Including Plots</a></li>
-</ul></li>
+<li class="chapter" data-level="6" data-path="graphing-data.html"><a href="graphing-data.html"><i class="fa fa-check"></i><b>6</b> Graphing Data</a></li>
 <li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
 <li class="chapter" data-level="7" data-path="copyright.html"><a href="copyright.html"><i class="fa fa-check"></i><b>7</b> Copyright</a></li>
 <li class="divider"></li>
@@ -165,8 +161,12 @@ If you have missing data in your dataset, leave that cell blank. In the example 
 <div id="selecting-a-subset" class="section level3" number="4.2.1">
 <h3><span class="header-section-number">4.2.1</span> Selecting a Subset</h3>
 <p>We can use the Select Cases command to specify a subset of our data. The Select Cases command is located under the Data menu. When you select this command, the dialog box below will appear. (Note the icons next to the variable names that indicate that all variables were defined as being measured on a nominal scale except grade, which was defined as scale.)</p>
-<p><img src="SelectCases1.PNG" alt="Data Tranformation" />
-<img src="SelectCases2.PNG" /></p>
+<div class="figure">
+<img src="SelectCases1.PNG" alt="" />
+<p class="caption">Data Tranformation</p>
+</div>
+<p>If condition….</p>
+<p><img src="SelectCases2.PNG" /></p>
 <p>You can specify which cases (participants) you want to select by using the selection criteria, which appear on the right side of the Select Cases dialog box. By default, All cases will be selected. The most common way to select a subset is to click If condition is satisfied, then click on the button labeled If. This will bring up a new dialog box that allows you to indicate which cases you would like to use.</p>
 <p><img src="SelectCases3.PNG" /></p>
 <p>You can enter the logic used to select the subset in the upper section. If the logical statement is true for a given case, then that case will be selected. If the logical statement is false that case will not be selected. For instance, you can select all cases that were coded as Morning/Evening by entering the formula RevisionTime = 1 in the upper-left part of the window. If RevisionTime is 1, then the statement will be true, and SPSS will select the case. If RevisionTime is anything other than 1, the statement will be false, and the case will not be selected. Once you have entered the logical statement, click Continue to return to the Select Cases dialog box. Then, click OK to return to the data window.</p>
