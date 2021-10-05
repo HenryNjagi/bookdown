@@ -1,0 +1,12 @@
+# Entering and Modifying Data
+
+## Variables and Data Representation
+
+In SPSS, variables are represented as columns in the data file. Participants are represented as rows. Thus, if we collect four pieces of information from 100 participants, we will have a data file with four columns and 100 rows.
+
+### Measurement Scales
+There are four types of measurement scales: nominal, ordinal, interval, and ratio. While the measurement scale will determine which statistical technique is appropriate for a given set of data, SPSS generally does not discriminate. Thus, we start this section with this warning: If you ask it to, SPSS may conduct an analysis that is not appropriate for your data.
+
+Newer versions of SPSS allow you to indicate which types of data you have when you define your variable. You do this using the Measure column. You can indicate Scale, Ordinal, or Nominal (SPSS does not distinguish between interval and ratio scales).
+
+

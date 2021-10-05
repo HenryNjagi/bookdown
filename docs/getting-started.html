@@ -24,7 +24,7 @@
 <meta name="author" content="Henry Njagi" />
 
 
-<meta name="date" content="2021-09-28" />
+<meta name="date" content="2021-10-05" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -32,7 +32,7 @@
   
   
 <link rel="prev" href="intro.html"/>
-<link rel="next" href="getting-started-1.html"/>
+<link rel="next" href="entering-and-modifying-data.html"/>
 <script src="libs/header-attrs-2.9/header-attrs.js"></script>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
@@ -88,22 +88,15 @@
 <li class="chapter" data-level="3.6" data-path="getting-started.html"><a href="getting-started.html#examining-and-printing-output-files"><i class="fa fa-check"></i><b>3.6</b> Examining and Printing Output Files</a></li>
 <li class="chapter" data-level="3.7" data-path="getting-started.html"><a href="getting-started.html#modifying-data-files"><i class="fa fa-check"></i><b>3.7</b> Modifying Data Files</a></li>
 </ul></li>
-<li class="chapter" data-level="4" data-path="getting-started-1.html"><a href="getting-started-1.html"><i class="fa fa-check"></i><b>4</b> Getting Started</a>
+<li class="chapter" data-level="4" data-path="entering-and-modifying-data.html"><a href="entering-and-modifying-data.html"><i class="fa fa-check"></i><b>4</b> Entering and Modifying Data</a></li>
+<li class="chapter" data-level="5" data-path="descriptive-statistics.html"><a href="descriptive-statistics.html"><i class="fa fa-check"></i><b>5</b> Descriptive Statistics</a></li>
+<li class="chapter" data-level="6" data-path="graphing-data.html"><a href="graphing-data.html"><i class="fa fa-check"></i><b>6</b> Graphing Data</a>
 <ul>
-<li class="chapter" data-level="4.1" data-path="getting-started-1.html"><a href="getting-started-1.html#starting-spss-1"><i class="fa fa-check"></i><b>4.1</b> Starting SPSS</a></li>
+<li class="chapter" data-level="6.1" data-path="graphing-data.html"><a href="graphing-data.html#r-markdown"><i class="fa fa-check"></i><b>6.1</b> R Markdown</a></li>
+<li class="chapter" data-level="6.2" data-path="graphing-data.html"><a href="graphing-data.html#including-plots"><i class="fa fa-check"></i><b>6.2</b> Including Plots</a></li>
 </ul></li>
-<li class="chapter" data-level="5" data-path="methods.html"><a href="methods.html"><i class="fa fa-check"></i><b>5</b> Methods</a>
-<ul>
-<li class="chapter" data-level="5.1" data-path="methods.html"><a href="methods.html#math-example"><i class="fa fa-check"></i><b>5.1</b> math example</a></li>
-</ul></li>
-<li class="chapter" data-level="6" data-path="applications.html"><a href="applications.html"><i class="fa fa-check"></i><b>6</b> Applications</a>
-<ul>
-<li class="chapter" data-level="6.1" data-path="applications.html"><a href="applications.html#example-one"><i class="fa fa-check"></i><b>6.1</b> Example one</a></li>
-<li class="chapter" data-level="6.2" data-path="applications.html"><a href="applications.html#example-two"><i class="fa fa-check"></i><b>6.2</b> Example two</a></li>
-</ul></li>
-<li class="chapter" data-level="7" data-path="final-words.html"><a href="final-words.html"><i class="fa fa-check"></i><b>7</b> Final Words</a></li>
 <li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
-<li class="chapter" data-level="8" data-path="copyright.html"><a href="copyright.html"><i class="fa fa-check"></i><b>8</b> Copyright</a></li>
+<li class="chapter" data-level="7" data-path="copyright.html"><a href="copyright.html"><i class="fa fa-check"></i><b>7</b> Copyright</a></li>
 <li class="divider"></li>
 <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
 
@@ -147,7 +140,7 @@ The main goal is to enter the data from the five college students into SPSS for 
 <p>Course:</p>
 <p>Revion Time:</p>
 <p>Grade %</p>
-<p>Recall the blank SPSS window, there is two button ( and ) on the bottom-left of the window. In the data view, we have columns and rows, the columns represents variables, and rows represent participants. Since the variables we have defined from example 2.1.1 have only four variables, therefore, we will create a data file with four columns, and five rows, each representing an entry from individual respondent/student.</p>
+<p>Recall the blank SPSS window, there is two button (Data View and Variable View) on the bottom-left of the window. In the data view, we have columns and rows, the columns represents variables, and rows represent participants. Since the variables we have defined from example 2.1.1 have only four variables, therefore, we will create a data file with four columns, and five rows, each representing an entry from individual respondent/student.</p>
 </div>
 <div id="defining-variables" class="section level2" number="3.2">
 <h2><span class="header-section-number">3.2</span> Defining Variables</h2>
@@ -155,7 +148,7 @@ The main goal is to enter the data from the five college students into SPSS for 
 <p>– begin with a letter, and
 – do not contain a space.</p>
 <p>Thus, the variable name “Q7” is acceptable, while the variable name “7Q” is not. Similarly, the variable name “PRE_TEST” is acceptable, but the variable name “PRE TEST” is not. Capitalization does not matter, but variable names are capitalized in this text to make it clear when we are referring to a variable name, even if the variable name is not necessarily capitalized in screenshots.</p>
-<p>To define a variable, click on the Variable View tab at the bottom of the main screen refer to the SPSS Blank Window. This will show you the Variable View window. To return to the Data View window, click on the Data View tab.</p>
+<p>To define a variable, click on the Variable View tab at the bottom of the main screen (refer to the SPSS Blank Window). This will show you the Variable View window. To return to the Data View window, click on the Data View tab.</p>
 <p>From the Variable View screen, SPSS allows you to create and edit all of the variables in your data file. Each column represents some property of a variable, and each row represents a variable. All variables must be given a name. To do that, click on the first empty cell in the Name column and type a valid SPSS variable name. The program will then fill in default values for most of the other properties.</p>
 <p>One useful function of SPSS is the ability to define variable and value labels. Variable labels allow you to associate a description with each variable.</p>
 <p><img src="variableview.PNG" alt="Variable View." />
@@ -167,7 +160,7 @@ When you enter a value label, you must click Add after each entry. This will mov
 <p>There are several other options available in this screen, which are beyond the scope of this text. In our example, we will be using numeric variables with all the default values.</p>
 <p>After you have coded the book, click on the Data View tab to open the data-entry screen. Enter data horizontally, beginning with the first student’s ID number. Enter the code for each variable in the appropriate column. To enter the GRADE variable value, enter the student’s class/semester grade.</p>
 <p><img src="dataview.PNG" alt="Data View label." />
-The previous data window can be changed to look like the screenshot on the next page by clicking on the Value Labels icon see below. In this case, the cells display value labels rather than the corresponding codes. If data are entered in this mode, it is not necessary to enter codes, as clicking the button that appears in each cell as the cell is selected will present a drop-down list of the predefined labels. You may use whichever method you prefer.</p>
+The previous data window can be changed to look like the screenshot on the next page by clicking on the Value Labels icon (see below). In this case, the cells display value labels rather than the corresponding codes. If data are entered in this mode, it is not necessary to enter codes, as clicking the button that appears in each cell as the cell is selected will present a drop-down list of the predefined labels. You may use whichever method you prefer.</p>
 <div class="figure">
 <img src="valuelabels.PNG" alt="" />
 <p class="caption">Data View label1.</p>
@@ -252,7 +245,7 @@ The previous data window can be changed to look like the screenshot on the next 
 </div>
 <p>Adding data and variables are logical extensions of the procedures we used to originally create the data file. Save this new data file. We will be using it again later in this book.</p>
 <p>Practice Exercise</p>
-<p>Follow the previous example (where TRAINING is the new variable). Make the modifications to your SAMPLE.sav data file and save it.</p>
+<p>Follow the previous example (where TRAINING is the new variable). Make the modifications to your SAMPLE.sav data file and save it. Good!</p>
 
 </div>
 </div>
@@ -262,7 +255,7 @@ The previous data window can be changed to look like the screenshot on the next 
         </div>
       </div>
 <a href="intro.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="getting-started-1.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="entering-and-modifying-data.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
@@ -316,20 +309,6 @@ gitbook.start({
 });
 </script>
 
-<!-- dynamically load mathjax for compatibility with self-contained -->
-<script>
-  (function () {
-    var script = document.createElement("script");
-    script.type = "text/javascript";
-    var src = "true";
-    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
-    if (location.protocol !== "file:")
-      if (/^https?:/.test(src))
-        src = src.replace(/^https?:/, '');
-    script.src = src;
-    document.getElementsByTagName("head")[0].appendChild(script);
-  })();
-</script>
 </body>
 
 </html>
